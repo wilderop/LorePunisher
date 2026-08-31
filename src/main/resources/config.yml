@@ -1,0 +1,24 @@
+punishments:
+  admin-items:
+    keywords:
+      - "AdminGiven"
+      - "StaffItem"
+    effects:
+      - type: MINING_FATIGUE
+        amplifier: 10
+        particles: false
+
+  duped-items:
+    keywords:
+      - "Dupe"
+      - "Illegal"
+    effects:
+      - type: SLOWNESS
+        amplifier: 5
+        particles: false
+      - type: WEAKNESS
+        amplifier: 255
+        particles: false
+
+case-sensitive: false
+scan-ender-chest: false

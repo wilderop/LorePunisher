@@ -1,0 +1,20 @@
+name: LorePunisher
+version: 1.1
+main: com.greev.LorePunisher
+api-version: 1.21
+author: Custom
+description: Applies different effects based on lore keywords
+
+commands:
+  lorepunisher:
+    description: Reload the plugin config
+    aliases: [lpunish, badlore]
+    permission: lorepunisher.admin
+
+permissions:
+  lorepunisher.admin:
+    description: Allows /lorepunisher reload
+    default: op
+  lorepunisher.bypass:
+    description: Immune to all lore punishments
+    default: false
