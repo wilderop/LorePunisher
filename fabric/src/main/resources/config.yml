@@ -1,0 +1,19 @@
+punishments:
+  admin-items:
+    keywords:
+      - "CONTAINMENT RISK"
+    effects:
+      - type: HUNGER
+        amplifier: 10
+        particles: false
+
+  coal:
+    keywords:
+      - "Black lump in the snow"
+    effects:
+      - type: MINING_FATIGUE
+        amplifier: 255
+        particles: false
+
+case-sensitive: false
+scan-ender-chest: false
